@@ -1,0 +1,97 @@
+﻿body {
+}
+
+.chatBtn{
+    color: white;
+}
+
+.chatBorder{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #0082ea;
+    padding: 13px 12px 12px 13px;
+    box-shadow:inset -2px 1px 11px 2px #c4def2;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#chatWindow{
+    position:fixed;
+    bottom: 0px;
+    right: 20px;
+    top:auto;
+    left:auto;
+}
+
+.scroll{
+    overflow-y:auto;
+    max-height:300px;
+}
+
+.dimen50{
+    width:50px;
+    height:50px;
+    margin:5px;
+}
+
+.modal-backdrop {
+    display:none;
+}
+
+.chatHeader{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+.white{
+    color:white;
+}
+
+.white:hover{
+    color:white;
+}
+
+.received{
+    background-color: #e4f2fe;
+    padding: 20px;
+    border-radius: 0px 30px 30px 30px;
+    box-shadow: 3px 3px 3px 0px lightgrey;
+    margin: 10px;
+    float: left;
+    width:85%;
+    overflow-wrap:break-word;
+}
+
+
+.sent{
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 30px 30px 0px 30px;
+    box-shadow: -3px 3px 3px 0px lightgrey;
+    margin: 10px;
+    overflow-wrap:break-word;
+    float: right;
+    width:85%;
+
+}
+
+.messageBox{
+    width:100%;
+    max-height:100px;
+    min-height:40px;
+}
+
+
+
+@media only screen and (min-width: 380px) {
+
+    #chatWindow {
+        min-height: 300px;
+        width: 380px;
+    }
+}
+
